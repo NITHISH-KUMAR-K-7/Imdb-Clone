@@ -18,9 +18,7 @@ function Moviecard({
     return false
   }
   return (
-    // <div className="h-[40vh]" style={{backgroundImage:"url('http://www.impawards.com/2012/avengers_ver21.html')",}}>
-
-    // </div>
+    
     <div className="h-[50vh] w-[200px] bg-cover bg-center rounded-xl hover:scale-110 duration-300 hover:cursor-pointer flex flex-col justify-between items-end" style={{ backgroundImage: `url(https://image.tmdb.org/t/p/w300${poster_path})` }}>
      
       {doesContain(movieObj) ? (
